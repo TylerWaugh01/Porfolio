@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
 import CorgiLogo from './app/assets/img/logo.png';
 import './App.css';
+import Introduction from './components/Intro';
 
 function App() {
     return (
@@ -13,7 +14,7 @@ function App() {
                     </NavbarBrand>
                 </Container>
             </Navbar>
-            Here comes my porfolio! 
+            <Introduction />
         </div>
     );
 }

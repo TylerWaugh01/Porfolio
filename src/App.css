@@ -1,15 +1,23 @@
-body {
+/* body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1,
 h2,
 h3,
 .card-body > .card-title {
   font-family: 'Lobster', cursive;
+  font-size: 1.25rem;
+} */
+
+h1 {
+  color: #eeae0d;
+  font-family: 'Lobster', cursive;
+  font-size: 1.25rem;
+
+
 }
 
-.card-title {
+ .card-title {
   font-weight: 500;
   font-size: 1.25rem;
 }
@@ -21,15 +29,15 @@ h2 {
 .card-img-overlay .card-title {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-}
+} 
 
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
-}
+} 
 
-.site-footer {
+ .site-footer {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
   margin-top: 2rem;
@@ -51,7 +59,7 @@ h2 {
   background-color: #e8970b;
   background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
   margin-bottom: 2rem;
-  min-height: 8rem;
+  min-height: 3rem;
 }
 
 .page-enter {
@@ -72,4 +80,4 @@ h2 {
 .page-exit-active {
   opacity: 0;
   transition: 300ms ease-in;
-}
+} 
