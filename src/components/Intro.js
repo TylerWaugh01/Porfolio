@@ -9,7 +9,7 @@ const Introduction = () => {
           <img src={Butter} alt="Butter" />
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
-          <h1 style={{ fontSize: '60px'}}>Tyler Waugh</h1>
+          <h1 style={{ fontSize: '70px'}}>Tyler Waugh</h1>
           <h1>Full Stack Developer</h1>
         </Col>
       </Row>
