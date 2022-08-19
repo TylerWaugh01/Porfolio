@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const ProjectsList = (props) => {
     return (
     <Container>
-    Projects 
+    <h2>Projects</h2>
     <Row className="ms-auto">
         {props.projects.map((project) => {
         return (

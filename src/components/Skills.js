@@ -3,10 +3,11 @@ import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reacts
 const SkillCard = () => {
   return (
     <Container>
+    <h2>Who is Tyler?</h2>
       <Row>
         <Col>
           <Card
-            className="my-3"
+            className="my-2"
             color="primary"
             inverse
             style={{ width: "18rem" }}
@@ -23,7 +24,7 @@ const SkillCard = () => {
 
         <Col>
           <Card
-            className="my-3"
+            className="my-2"
             color="success"
             inverse
             style={{ width: "18rem" }}
@@ -39,7 +40,7 @@ const SkillCard = () => {
 
         <Col>
           <Card
-            className="my-3"
+            className="my-2"
             color="warning"
             inverse
             style={{ width: "18rem" }}

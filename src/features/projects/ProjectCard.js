@@ -1,12 +1,11 @@
-import { Card, CardImgOverlay, CardImg, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText } from 'reactstrap';
 
 const ProjectCard = (props) => {
     return (
     <Card>
-        <CardImg width='100%' src={props.project.image} alt={props.project.name}/> 
-        <CardImgOverlay>
         <CardTitle>{props.project.name}</CardTitle>
-        </CardImgOverlay>
+        <CardImg width='100%' src={props.project.image} alt={props.project.name}/> 
+        <CardText>{props.project.elevator}</CardText>
     </Card>
     )
 };
