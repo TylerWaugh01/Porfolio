@@ -12,7 +12,7 @@ function App() {
             <Header /> 
             <Introduction />
             <Skills />
-            <ProjectsList projects={ PROJECTS }/>
+            <ProjectsList projects = { PROJECTS }/>
         </div>
     );
 }
