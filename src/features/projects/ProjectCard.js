@@ -1,13 +1,15 @@
 import { Card, CardImg, CardTitle, CardText } from 'reactstrap';
 
-const ProjectCard = (props) => {
+const ProjectCard = ({ project }) => {
+    const { image, name, elevator } = project;
     return (
     <Card>
-        <CardTitle>{props.project.name}</CardTitle>
-        <CardImg width='100%' src={props.project.image} alt={props.project.name}/> 
-        <CardText>{props.project.elevator}</CardText>
+        <CardTitle>{name}</CardTitle>
+        <CardImg width='100%' src={image} alt={name}/> 
+        <CardText>{elevator}</CardText>
     </Card>
     )
 };
 
 export default ProjectCard;
+
