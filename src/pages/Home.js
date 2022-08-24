@@ -1,7 +1,7 @@
-import { Col, Row, Container } from "reactstrap";
 import Butter from "../app/assets/img/Butter.jpeg";
+import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reactstrap";
 
-const Introduction = () => {
+const Home = () => {
   return (
     <Container>
       <Row>
@@ -13,18 +13,7 @@ const Introduction = () => {
           <h1>Full Stack Developer</h1>
         </Col>
       </Row>
-    </Container>
-  );
-};
-
-export default Introduction;
-
-import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reactstrap";
-
-const SkillCard = () => {
-  return (
-    <Container>
-    <h2>Who is Tyler?</h2>
+      <h2>Who is Tyler?</h2>
       <Row>
         <Col>
           <Card
@@ -42,7 +31,6 @@ const SkillCard = () => {
             </CardBody>
           </Card>
         </Col>
-
         <Col>
           <Card
             className="my-2"
@@ -74,11 +62,12 @@ const SkillCard = () => {
             </CardBody>
           </Card>
         </Col>
-
-
       </Row>
     </Container>
   );
 };
 
-export default SkillCard;
+export default Home;
+
+
+
