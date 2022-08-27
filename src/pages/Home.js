@@ -9,8 +9,8 @@ const Home = () => {
           <img src={Butter} alt="Butter" />
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
-          <h1 style={{ fontSize: '70px'}}>Tyler Waugh</h1>
-          <h1>Full Stack Developer</h1>
+          <h2 style={{ fontSize: '70px'}}>Tyler Waugh</h2>
+          <h2>Full Stack Developer</h2>
         </Col>
       </Row>
       <h2>Who is Tyler?</h2>
