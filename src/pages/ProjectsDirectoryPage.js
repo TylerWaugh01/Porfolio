@@ -1,17 +1,19 @@
-import { Container, Row, Col, Button } from 'reactstrap';
+import { useState } from 'react';
+import { Container, Row, Col } from 'reactstrap';
 import ProjectDetail from '../features/projects/ProjectDetail';
 import ProjectsList from '../features/projects/ProjectsList';
-import { selectRandomProject } from '../features/projects/projectsSlice';
+import { selectProjectById } from '../features/projects/projectsSlice';
 
 
 const ProjectsDirectoryPage = () => {
-    const selectedProject = selectRandomProject();
-
+    const [projectId, setProjectId] = useState(0);   
+    const selectedProject = selectProjectById(projectId); 
+    
     return (
         <Container>
             <Row>
                 <Col sm='5' md='7'>
-                    <ProjectsList />
+                    <ProjectsList setProjectId={setProjectId}  />
                 </Col>
                 <Col sm='7' md='5'>
                     <ProjectDetail project={selectedProject} />
