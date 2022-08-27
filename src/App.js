@@ -10,8 +10,9 @@ function App() {
     return (
         <div className='App'>
             <Header /> 
-            <Introduction />
-            <Skills />
+            <Home /> 
+            {/* <Introduction />
+            <Skills /> */}
             <ProjectsList projects = { PROJECTS }/>
         </div>
     );
