@@ -1,8 +1,7 @@
 import Tyler from "../app/assets/img/Tyler.png"
-import Butter from "../app/assets/img/Butter.jpeg";
 import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reactstrap";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <Container>
       <Row>
@@ -93,7 +92,7 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
 
 
 
