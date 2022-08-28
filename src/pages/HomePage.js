@@ -1,7 +1,14 @@
 import Tyler from "../app/assets/img/Tyler.png"
 import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reactstrap";
+import { useState } from 'react';
+import ProjectDetail from '../features/projects/ProjectDetail';
+import ProjectsList from '../features/projects/ProjectsList';
+import { selectProjectById } from '../features/projects/projectsSlice';
+
 
 const HomePage = () => {
+  const [projectId, setProjectId] = useState(0);   
+  const selectedProject = selectProjectById(projectId); 
   return (
     <Container>
       <Row>
@@ -88,6 +95,14 @@ const HomePage = () => {
           </Card>
         </Col>
       </Row> */}
+       <Row>
+                <Col sm='5' md='7'>
+                    <ProjectsList setProjectId={setProjectId}  />
+                </Col>
+                <Col sm='7' md='5'>
+                    <ProjectDetail project={selectedProject} />
+                </Col>
+            </Row>
     </Container>
   );
 };
