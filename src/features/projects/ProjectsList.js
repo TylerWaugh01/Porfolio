@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import { selectAllProjects } from './projectsSlice';
 
 
-const ProjectsList = ({ setProjectId }) => {
+const ProjectsList = () => {
     const projects = selectAllProjects();
     return (
     <Container>
@@ -14,9 +14,7 @@ const ProjectsList = ({ setProjectId }) => {
         <Col 
         md='5' 
         className='m-4' 
-        key={project.id}
-        onClick={() => setProjectId(project.id)}
-        >
+        key={project.id}>
         <ProjectCard project={project} />
         </Col>
         );

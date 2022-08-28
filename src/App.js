@@ -9,6 +9,8 @@ import Skills from './components/Skills';
 import ProjectsList from './features/projects/ProjectsList.js'
 import { PROJECTS } from './app/shared/PROJECTS'
 import ContactPage from './pages/ContactPage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
+import ProjectsDirectoryPage from './pages/ProjectsDirectoryPage';
 
 function App() {
     return (
@@ -19,7 +21,12 @@ function App() {
             <Route path='contact' element={<ContactPage />} />
             {/* <Introduction />
             <Skills /> */}
-            <Route path='projects' element={<ProjectsList projects={ PROJECTS } /> } />
+            <Route path='projects' element={<ProjectsDirectoryPage />} />
+            {/* <Route path='projects' element={<ProjectsList projects={ PROJECTS } /> } /> */}
+            <Route
+                    path='projects/:projectId'
+                    element={<ProjectDetailPage />}
+                />
             </Routes>
             <Footer />
         </div>

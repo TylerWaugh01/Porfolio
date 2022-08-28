@@ -4,6 +4,7 @@ import { useState } from 'react';
 import ProjectDetail from '../features/projects/ProjectDetail';
 import ProjectsList from '../features/projects/ProjectsList';
 import { selectProjectById } from '../features/projects/projectsSlice';
+import DisplayList from '../features/display/DisplayList';
 
 
 const HomePage = () => {
@@ -94,13 +95,10 @@ const HomePage = () => {
             </CardBody>
           </Card>
         </Col>
-      </Row> */}
-       <Row>
-                <Col sm='5' md='7'>
-                    <ProjectsList setProjectId={setProjectId}  />
-                </Col>
-                <Col sm='7' md='5'>
-                    <ProjectDetail project={selectedProject} />
+      </Row> */}    
+      <Row>
+                <Col sm={{ size: '4', offset: 3 }}>
+                    <DisplayList  />
                 </Col>
             </Row>
     </Container>
