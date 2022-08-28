@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Introduction from './components/Intro';
 import Header from './components/Header';
+import Footer from './components/Footer'; 
 import HomePage from './pages/HomePage';
 import Skills from './components/Skills';
 import ProjectsList from './features/projects/ProjectsList.js'
@@ -20,6 +21,7 @@ function App() {
             <Skills /> */}
             <Route path='projects' element={<ProjectsList projects={ PROJECTS } /> } />
             </Routes>
+            <Footer />
         </div>
     );
 }
