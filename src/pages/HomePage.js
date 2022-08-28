@@ -101,6 +101,11 @@ const HomePage = () => {
                     <DisplayList  />
                 </Col>
             </Row>
+       <Row id='projects'>
+                <Col sm='5' md='7'>
+                    <ProjectsList/>
+                </Col>
+            </Row>
     </Container>
   );
 };

@@ -24,7 +24,7 @@ function App() {
             <Route path='projects' element={<ProjectsDirectoryPage />} />
             {/* <Route path='projects' element={<ProjectsList projects={ PROJECTS } /> } /> */}
             <Route
-                    path='projects/:projectId'
+                    path='/:projectId'
                     element={<ProjectDetailPage />}
                 />
             </Routes>

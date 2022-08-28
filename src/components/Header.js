@@ -9,10 +9,10 @@ import {
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 // import CorgiLogo from '../app/assets/img/logo.png';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-
     return (
         <Navbar dark color='dark' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
@@ -29,9 +29,11 @@ const Header = () => {
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/projects'>
-                            <i className='fa fa-list fa-lg' /> Projects
-                        </NavLink>
+                        {/* <NavLink className='nav-link' to='/projects'> */}
+                            <Link to='#projects'>
+                            <i className='fa fa-list fa-lg'  /> Projects
+                            </Link>
+                        {/* </NavLink> */}
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/about'>
