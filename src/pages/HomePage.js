@@ -15,12 +15,18 @@ const HomePage = () => {
   return (
     <Container>
       <Row>
-        <Col sm={{ size: 'auto', offset: 3 }}>
+        <Col sm={{ size: 'auto'}}>
           <img src={Tyler} alt="Tyler" />
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
           <h2  id='home' style={{ fontSize: '70px', }}> Tyler Waugh</h2>
           <h2>Full Stack Developer</h2>
+                        <a
+                            className='btn btn-social-icon btn-lg btn-github'
+                            href='https://github.com/TylerWaugh01'
+                        >
+                            <i className='fa fa-github fa-5x' /> 
+                        </a>
         </Col>
       </Row>
         <Col>
@@ -105,7 +111,7 @@ const HomePage = () => {
             </Row> */}
        <Row>
         <h3 id='projects'>Projects</h3>
-                <Col sm='5' md='7'>
+                <Col>
                     <ProjectsList/>
                 </Col>
             </Row>

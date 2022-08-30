@@ -31,25 +31,7 @@ const Footer = () => {
                         >
                             <i className='fa fa-github-square' /> 
                         </a>
-                        {/* {' '}
-                        <a
-                            className='btn btn-social-icon btn-facebook'
-                            href='http://www.facebook.com/'
-                        >
-                            <i className='fa fa-facebook' />
-                        </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-twitter'
-                            href='http://twitter.com/'
-                        >
-                            <i className='fa fa-twitter' />
-                        </a>{' '}
-                        <a
-                            className='btn btn-social-icon btn-google'
-                            href='http://youtube.com/'
-                        >
-                            <i className='fa fa-youtube' />
-                        </a> */}
+                       
                     </Col>
                     <Col sm='4' className='text-center'>
                         <a

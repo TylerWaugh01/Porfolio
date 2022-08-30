@@ -9,7 +9,6 @@ import {
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 // import CorgiLogo from '../app/assets/img/logo.png';
-import { HashLink as Link } from 'react-router-hash-link';
 import { NavHashLink } from 'react-router-hash-link';
 
 const Header = () => {
@@ -18,7 +17,7 @@ const Header = () => {
         <Navbar dark color='dark' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
-                    <h3 className='mt-1'>Tyler Waugh</h3>
+                    <h1 className='mt-1'>Tyler Waugh</h1>                 
                 </NavLink>    
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
