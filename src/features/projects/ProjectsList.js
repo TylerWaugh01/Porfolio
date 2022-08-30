@@ -7,7 +7,6 @@ const ProjectsList = () => {
     const projects = selectAllProjects();
     return (
     <Container>
-    <h2>Projects</h2>
     <Row className="ms-auto">
         {projects.map((project) => {
         return (

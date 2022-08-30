@@ -18,10 +18,10 @@ function App() {
             <Header /> 
             <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='contact' element={<ContactPage />} />
+            {/* <Route path='contact' element={<ContactPage />} /> */}
             {/* <Introduction />
             <Skills /> */}
-            <Route path='projects' element={<ProjectsDirectoryPage />} />
+            {/* <Route path='projects' element={<ProjectsDirectoryPage />} /> */}
             {/* <Route path='projects' element={<ProjectsList projects={ PROJECTS } /> } /> */}
             <Route
                     path='/:projectId'

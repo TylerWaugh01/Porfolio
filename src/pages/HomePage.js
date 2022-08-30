@@ -5,6 +5,8 @@ import ProjectDetail from '../features/projects/ProjectDetail';
 import ProjectsList from '../features/projects/ProjectsList';
 import { selectProjectById } from '../features/projects/projectsSlice';
 import DisplayList from '../features/display/DisplayList';
+import ContactPage from "./ContactPage";
+import BioPage from "./BioPage";
 
 
 const HomePage = () => {
@@ -17,8 +19,8 @@ const HomePage = () => {
           <img src={Tyler} alt="Tyler" />
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
-          <h2 style={{ fontSize: '70px', }}> Tyler Waugh</h2>
-          <h2>  Full Stack Developer</h2>
+          <h2  id='home' style={{ fontSize: '70px', }}> Tyler Waugh</h2>
+          <h2>Full Stack Developer</h2>
         </Col>
       </Row>
         <Col>
@@ -39,9 +41,9 @@ const HomePage = () => {
                 Nucamp Full Stack Web + Mobile Development Bootcamp
               </CardText>
               <CardTitle tag="h5">Biography</CardTitle>
-              <CardText>
+              {/* <CardText>
                 Kansan living in New Jersey. A web developer with a passion for design, user experience, and bringing people together. 
-              </CardText>
+              </CardText> */}
             </CardBody>
           </Card>
         </Col>
@@ -96,16 +98,30 @@ const HomePage = () => {
           </Card>
         </Col>
       </Row> */}    
-      <Row>
+      {/* <Row>
                 <Col sm={{ size: '4', offset: 3 }}>
                     <DisplayList  />
                 </Col>
-            </Row>
-       <Row id='projects'>
+            </Row> */}
+       <Row>
+        <h3 id='projects'>Projects</h3>
                 <Col sm='5' md='7'>
                     <ProjectsList/>
                 </Col>
             </Row>
+       <Row>
+        <h3 id='bio'>Bio</h3>
+                <Col>
+                    <BioPage/>
+                </Col>
+            </Row>  
+
+            <Row>
+        <h3 id='contact'>Contact</h3>
+                <Col>
+                    <ContactPage/>
+                </Col>
+            </Row>  
     </Container>
   );
 };

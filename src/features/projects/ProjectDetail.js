@@ -4,7 +4,8 @@ const ProjectDetail = ( {project} ) => {
     const { image, name, description } = project;
 
     return (
-        <Col md='12' className='m-4'>
+        // <Col md='12' className='m-4'>
+             <Col md='6'>
             <Card>
                 <CardImg top src={image} alt={name} />
                 <CardBody>

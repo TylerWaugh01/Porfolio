@@ -10,6 +10,7 @@ import {
 import { NavLink } from 'react-router-dom';
 // import CorgiLogo from '../app/assets/img/logo.png';
 import { HashLink as Link } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -17,33 +18,31 @@ const Header = () => {
         <Navbar dark color='dark' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
-                    <h1 className='mt-1'>Tyler Waugh</h1>
+                    <h3 className='mt-1'>Tyler Waugh</h3>
                 </NavLink>    
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>
-                        <NavLink className='nav-link' to='/'>
+                    <NavHashLink className='nav-link' to='/#home'>  
                             <i className='fa fa-home fa-lg' /> Home
-                        </NavLink>
+                        </NavHashLink>
                     </NavItem>
                     <NavItem>
-                        {/* <NavLink className='nav-link' to='/projects'> */}
-                            <Link to='#projects'>
+                        <NavHashLink className='nav-link' to='/#projects'>  
                             <i className='fa fa-list fa-lg'  /> Projects
-                            </Link>
-                        {/* </NavLink> */}
+                        </NavHashLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/about'>
+                        <NavHashLink className='nav-link' to='/#bio'>
                             <i className='fa fa-info fa-lg' /> Bio
-                        </NavLink>
+                        </NavHashLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink className='nav-link' to='/contact'>
+                        <NavHashLink className='nav-link' to='/#contact'>
                             <i className='fa fa-address-card fa-lg' /> Contact
-                        </NavLink>
+                        </NavHashLink>
                     </NavItem>
                 </Nav>
             </Collapse>
