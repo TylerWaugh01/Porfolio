@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Footer = () => {
     return (
@@ -10,28 +11,18 @@ const Footer = () => {
                         <h5 style={{color:'white'}}>Links</h5>
                         <ul className='list-unstyled'>
                             <li>
-                                <Link to='/'>Home</Link>
+                                <NavHashLink  to='/#home'>Home</NavHashLink>
                             </li>
                             <li>
-                                <Link to='/projects'>Projects</Link>
+                                <NavHashLink to='/#projects'>Projects</NavHashLink>
                             </li>
                             <li>
-                                <Link to='/about'>About</Link>
+                                <NavHashLink to='/#bio'>Bio</NavHashLink>
                             </li>
                             <li>
-                                <Link to='/contact'>Contact</Link>
+                                <NavHashLink to='/contact'>Contact</NavHashLink>
                             </li>
                         </ul>
-                    </Col>
-                    <Col xs='6' sm='3' className='text-center'>
-                        <h5 style={{color:'white'}}>Social</h5>
-                        <a
-                            className='btn btn-social-icon btn-github'
-                            href='http://gitub.com/'
-                        >
-                            <i className='fa fa-github-square' /> 
-                        </a>
-                       
                     </Col>
                     <Col sm='4' className='text-center'>
                         <a
