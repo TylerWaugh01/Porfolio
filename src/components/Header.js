@@ -24,10 +24,10 @@ const Header = () => {
 // const closeNav = () => {
 //     document.getElementById("myNav").props.display = "none";
 // }
-    // const [menuOpen, setMenuOpen] = useState(false);
-    return (
+    const [menuOpen, setMenuOpen] = useState(false);
+    
         
-        <Container>
+        // <Container>
             {/* <html>
 <head>
 
@@ -136,40 +136,40 @@ function closeNav() {
 
 </script> */}
 
-</Container>
-        
-        // <Navbar dark color='dark' sticky='top'>
-        //     <NavbarBrand className='ms-5' href='/'>
-        //         <NavLink className='nav-link' to='/'>
-        //             <h1 className='mt-1'>Tyler Waugh</h1>                 
-        //         </NavLink>    
-        //     </NavbarBrand>
-        //     <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
-        //     <Collapse isOpen={menuOpen} navbar>
-        //         <Nav className='ms-auto' navbar>
-        //             <NavItem>
-        //             <NavHashLink className='nav-link' to='/#home'>  
-        //                     <i className='fa fa-home fa-lg' /> Home
-        //                 </NavHashLink>
-        //             </NavItem>
-        //             <NavItem>
-        //                 <NavHashLink className='nav-link' to='/#projects'>  
-        //                     <i className='fa fa-list fa-lg'  /> Projects
-        //                 </NavHashLink>
-        //             </NavItem>
-        //             <NavItem>
-        //                 <NavHashLink className='nav-link' to='/#bio'>
-        //                     <i className='fa fa-info fa-lg' /> Bio
-        //                 </NavHashLink>
-        //             </NavItem>
-        //             <NavItem>
-        //                 <NavHashLink className='nav-link' to='/#contact'>
-        //                     <i className='fa fa-address-card fa-lg' /> Contact
-        //                 </NavHashLink>
-        //             </NavItem>
-        //         </Nav>
-        //     </Collapse>
-        // </Navbar>
+{/* </Container> */}
+        return (
+        <Navbar dark color='dark' sticky='top'>
+            <NavbarBrand className='ms-5' href='/'>
+                <NavLink className='nav-link' to='/'>
+                    <h1 className='mt-1'>Tyler Waugh</h1>                 
+                </NavLink>    
+            </NavbarBrand>
+            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
+            <Collapse isOpen={menuOpen} navbar>
+                <Nav className='ms-auto' navbar>
+                    <NavItem>
+                    <NavHashLink className='nav-link' to='/#home'>  
+                            <i className='fa fa-home fa-lg' /> Home
+                        </NavHashLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavHashLink className='nav-link' to='/#projects'>  
+                            <i className='fa fa-list fa-lg'  /> Projects
+                        </NavHashLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavHashLink className='nav-link' to='/#bio'>
+                            <i className='fa fa-info fa-lg' /> Bio
+                        </NavHashLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavHashLink className='nav-link' to='/#contact'>
+                            <i className='fa fa-address-card fa-lg' /> Contact
+                        </NavHashLink>
+                    </NavItem>
+                </Nav>
+            </Collapse>
+        </Navbar>
     );
 };
 

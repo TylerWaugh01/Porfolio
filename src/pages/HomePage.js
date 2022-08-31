@@ -1,5 +1,5 @@
 import Tyler from "../app/assets/img/Tyler.png"
-import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reactstrap";
+import { Card, CardBody, CardText, Col, Row, Container } from "reactstrap";
 import { useState } from 'react';
 import ProjectDetail from '../features/projects/ProjectDetail';
 import ProjectsList from '../features/projects/ProjectsList';
@@ -19,96 +19,21 @@ const HomePage = () => {
           <img src={Tyler} alt="Tyler" />
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
-          <h2  id='home' style={{ fontSize: '70px', }}> Tyler Waugh</h2>
-          <h2>Full Stack Developer</h2>
-                        <a
-                            className='btn btn-social-icon btn-lg btn-github'
+          <h2  id='home' style={{ fontSize: '70px', }}>Tyler Waugh,</h2>
+          <h2 style={{ fontSize: '50px', }}>Full Stack Developer</h2>
+            <p className="my-2"><b>Skills:</b>
+                HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
+                Express, MongoDB</p>
+            <p className="my-1"><b>Education:</b>
+            Nucamp Full Stack Web + Mobile Development Bootcamp</p>
+            <a
+                            className='btn btn-social-icon btn-lg btn-github my-2'
                             href='https://github.com/TylerWaugh01'
                         >
                             <i className='fa fa-github fa-5x' /> 
                         </a>
         </Col>
       </Row>
-        <Col>
-      <Card
-            className="my-2"
-            color="dark"
-            inverse
-            // style={{ width: "18rem" }}
-          >
-            <CardBody>
-              <CardTitle tag="h5">Skills</CardTitle>
-              <CardText>
-                HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
-                Express, MongoDB
-              </CardText>
-              <CardTitle tag="h5">Education</CardTitle>
-              <CardText>
-                Nucamp Full Stack Web + Mobile Development Bootcamp
-              </CardText>
-              <CardTitle tag="h5">Biography</CardTitle>
-              {/* <CardText>
-                Kansan living in New Jersey. A web developer with a passion for design, user experience, and bringing people together. 
-              </CardText> */}
-            </CardBody>
-          </Card>
-        </Col>
-      
-      {/* <h2>Who is Tyler?</h2>
-      <Row>
-        <Col>
-          <Card
-            className="my-2"
-            color="primary"
-            inverse
-            style={{ width: "18rem" }}
-          >
-            <CardBody>
-              <CardTitle tag="h5">Skills</CardTitle>
-              <CardText>
-                HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
-                Express, MongoDB
-              </CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col>
-          <Card
-            className="my-2"
-            color="success"
-            inverse
-            style={{ width: "18rem" }}
-          >
-            <CardBody>
-              <CardTitle tag="h5">Education</CardTitle>
-              <CardText>
-                Nucamp Full Stack Web + Mobile Development Bootcamp
-              </CardText>
-            </CardBody>
-          </Card>
-        </Col>
-
-        <Col>
-          <Card
-            className="my-2"
-            color="warning"
-            inverse
-            style={{ width: "18rem" }}
-          >
-            <CardBody>
-              <CardTitle tag="h5">Biography</CardTitle>
-              <CardText>
-                Kansan living in New Jersey. A web developer with a passion for design, user experience, and bringing people together. 
-              </CardText>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row> */}    
-      {/* <Row>
-                <Col sm={{ size: '4', offset: 3 }}>
-                    <DisplayList  />
-                </Col>
-            </Row> */}
        <Row>
         <h3 id='projects'>Projects</h3>
                 <Col>
