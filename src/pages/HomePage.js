@@ -21,10 +21,10 @@ const HomePage = () => {
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
           <h2  id='home' style={{ fontSize: '70px', }}>Tyler Waugh,</h2>
           <h2 style={{ fontSize: '50px', }}>Full Stack Developer</h2>
-            <p className="my-2"><b>Skills:</b>
+            <p className="my-2"><b>Skills: </b>
                 HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
                 Express, MongoDB</p>
-            <p className="my-1"><b>Education:</b>
+            <p className="my-1"><b>Education: </b>
             Nucamp Full Stack Web + Mobile Development Bootcamp</p>
             <a
                             className='btn btn-social-icon btn-lg btn-github my-2'

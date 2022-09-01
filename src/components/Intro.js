@@ -1,12 +1,12 @@
 import { Col, Row, Container } from "reactstrap";
-import Butter from "../app/assets/img/Butter.jpeg";
+// import Butter from "../app/assets/img/Butter.jpeg";
 
 const Introduction = () => {
   return (
     <Container>
       <Row>
         <Col sm={{ size: 'auto', offset: 3 }}>
-          <img src={Butter} alt="Butter" />
+          {/* <img src={Butter} alt="Butter" /> */}
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
           <h1 style={{ fontSize: '70px'}}>Tyler Waugh</h1>

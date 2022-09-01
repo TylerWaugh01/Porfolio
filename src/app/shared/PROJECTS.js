@@ -1,4 +1,3 @@
-import corgi from '../assets/img/corgi.png';
 import Nucamp from '../assets/img/Nucamp.png';
 
 export const PROJECTS = [
@@ -15,7 +14,7 @@ export const PROJECTS = [
     {
         id: 1,
         name: 'Pet Boutique - Bootstrap',
-        image: corgi,
+        image: Nucamp,
         website: '',
         featured: true,
         elevator: 'a fictional pet boutique built use bootstrap',
@@ -25,7 +24,7 @@ export const PROJECTS = [
     {
         id: 2,
         name: 'Test 2',
-        image: corgi,
+        image: Nucamp,
         website: '',
         featured: false,
         elevator: 'Test 2 elevator',
