@@ -30,7 +30,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='tel:+12065551234'
                         >
-                            <i className='fa fa-phone' /> (785) 224-697
+                            <i className='fa fa-phone' /> (785) 224-6976
                         </a>
                         <br />
                         <a

@@ -154,7 +154,7 @@ function closeNav() {
                     </NavItem>
                     <NavItem>
                         <NavHashLink className='nav-link' to='/#projects'>  
-                            <i className='fa fa-list fa-lg'  /> Projects
+                            <i className='fa fa-list fa-lg'  /> Work
                         </NavHashLink>
                     </NavItem>
                     <NavItem>

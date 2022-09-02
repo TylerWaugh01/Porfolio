@@ -18,34 +18,39 @@ const HomePage = () => {
         <Col sm={{ size: 'auto'}}>
           <img src={Tyler} alt="Tyler" />
         </Col>
-        <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
-          <h2  id='home' style={{ fontSize: '70px', }}>Tyler Waugh,</h2>
+        <Col>
+          <h2  id='home' style={{display: "flex" , flexDirection: "column",  justifyContent:'center', fontSize: '70px' }}>Tyler Waugh,</h2>
           <h2 style={{ fontSize: '50px', }}>Full Stack Developer</h2>
-            <p className="my-2"><b>Skills: </b>
+            <p className="my-3"><b>Skills: </b>
                 HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
                 Express, MongoDB</p>
             <p className="my-1"><b>Education: </b>
             Nucamp Full Stack Web + Mobile Development Bootcamp</p>
-            <a
-                            className='btn btn-social-icon btn-lg btn-github my-2'
-                            href='https://github.com/TylerWaugh01'
-                        >
-                            <i className='fa fa-github fa-5x' /> 
-                        </a>
+            <a className='btn btn-social-icon btn-github my-2' href='https://github.com/TylerWaugh01'>
+            <i className='fa fa-github'/> </a>{" "}
+            <a className='btn btn-social-icon btn-lg btn-linkedin-square my-2' href='https://www.linkedin.com/in/tylerwaugh/'>
+            <i className='fa fa-linkedin-square'/> </a>
+             <a role="button" class="btn btn-main mt-2" href="./Tyler_Waugh_Resume.pdf" download="Resume-TylerWaugh"><i class="fa fa-download">
+            </i> Download Resume</a>
+
+
+            <a href="../app/assets/img/Tyler.png" download>Download the pdf</a>
+            <a className="btn btn-dark" href="../app/assets/img/Tyler.png" download="Tyler.png">
+            <i class="fa fa-file-pdf-o"></i> Download Resume </a>
         </Col>
       </Row>
+      <Row>
+                <Col>
+                    <BioPage/>
+                </Col>
+        </Row>  
        <Row>
         <h3 id='projects'>Projects</h3>
                 <Col>
                     <ProjectsList/>
                 </Col>
             </Row>
-       <Row>
-        <h3 id='bio'>Bio</h3>
-                <Col>
-                    <BioPage/>
-                </Col>
-            </Row>  
+       
 
             <Row>
         <h3 id='contact'>Contact</h3>
