@@ -30,13 +30,8 @@ const HomePage = () => {
             <i className='fa fa-github'/> </a>{" "}
             <a className='btn btn-social-icon btn-lg btn-linkedin-square my-2' href='https://www.linkedin.com/in/tylerwaugh/'>
             <i className='fa fa-linkedin-square'/> </a>
-             <a role="button" class="btn btn-main mt-2" href="./Tyler_Waugh_Resume.pdf" download="Resume-TylerWaugh"><i class="fa fa-download">
+            <a role="button" class="btn btn-main mt-2" href="Tyler_Waugh_Resume.pdf" download="Resume-TylerWaugh"><i class="fa fa-download">
             </i> Download Resume</a>
-
-
-            <a href="../app/assets/img/Tyler.png" download>Download the pdf</a>
-            <a className="btn btn-dark" href="../app/assets/img/Tyler.png" download="Tyler.png">
-            <i class="fa fa-file-pdf-o"></i> Download Resume </a>
         </Col>
       </Row>
       <Row>
@@ -50,8 +45,6 @@ const HomePage = () => {
                     <ProjectsList/>
                 </Col>
             </Row>
-       
-
             <Row>
         <h3 id='contact'>Contact</h3>
                 <Col>

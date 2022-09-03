@@ -38,7 +38,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='mailto:tyler.waugh@gmail.com'
                         >
-                            <i className='fa fa-envelope-o' /> tyler.waugh@gmail.com
+                            <i className='fa fa-envelope-o' /> waughphoto@gmail.com
                         </a>
                     </Col>
                 </Row>
