@@ -7,9 +7,9 @@ const Footer = () => {
         <footer className='site-footer'>
             <Container>
                 <Row>
-                    <Col xs={{ size: 4, offset: 1 }} sm='2'>
+                    <Col xs={{ size: 4, offset: 5 }} sm='2' style={{ display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
                         <h5 style={{color:'white'}}>Links</h5>
-                        <ul className='list-unstyled'>
+                        <ul className='list-unstyled' >
                             <li>
                                 <NavHashLink  to='/#home'>Home</NavHashLink>
                             </li>
@@ -20,23 +20,6 @@ const Footer = () => {
                                 <NavHashLink to='/#contact'>Contact</NavHashLink>
                             </li>
                         </ul>
-                    </Col>
-                    <Col sm='4' className='text-center'>
-                        <a
-                            role='button'
-                            className='btn btn-link'
-                            href='tel:+12065551234'
-                        >
-                            <i className='fa fa-phone' /> (785) 224-6976
-                        </a>
-                        <br />
-                        <a
-                            role='button'
-                            className='btn btn-link'
-                            href='mailto:tyler.waugh@gmail.com'
-                        >
-                            <i className='fa fa-envelope-o' /> waughphoto@gmail.com
-                        </a>
                     </Col>
                 </Row>
             </Container>

@@ -44,22 +44,20 @@ h3 {
 
  .site-footer {
   background-color: #000000;
-  /* background-image: linear-gradient(#cec8ff, white); */
-  padding: 20px 0;
-  margin-top: 2rem;
+  padding: 10px 0;
+  margin: 1rem;
 }
 
 .navbar-dark {
   background-color: #0000;
   background-image: #0000;
   margin-bottom: 2rem;
-  min-height: 3rem;
 }
 
 .page-enter {
   opacity: 0;
   transform: translateX(-100%);
-}
+} */
 
 .page-enter-active {
   opacity: 1;
@@ -74,7 +72,7 @@ h3 {
 .page-exit-active {
   opacity: 0;
   transition: 300ms ease-in;
-} 
+}  
 
 .overlay {
   height: 100%;

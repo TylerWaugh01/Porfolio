@@ -1,22 +1,51 @@
-import { Card, CardBody, CardText, Container, } from "reactstrap";
+import { Card, CardBody, CardText, Container, Row, Col } from "reactstrap";
 
 
 const ContactPage = () => {
     return (
     <Container>
-    <Card
-    className="my-2 md-4"
+        <Row>
+    <Col>
+      <Card
+    className="my-2"
     color="dark"
     inverse
-
     // style={{ width: "18rem" }}
   >
     <CardBody>
       <CardText className='d-flex justify-content-center'>
-        Tyler is a Kansan living in New Jersey. He is a web developer with a passion for design, user experience, and bringing people together.  
+      <a
+                            role='button'
+                            className='btn btn-link'
+                            href='tel:+12065551234'
+                        >
+                            <i className='fa fa-phone' /> (785) 224-6976
+                        </a>
       </CardText>
     </CardBody>
   </Card>  
+      </Col>
+      <Col>
+      <Card
+    className="my-2"
+    color="dark"
+    inverse
+    // style={{ width: "18rem" }}
+  >
+    <CardBody>
+      <CardText className='d-flex justify-content-center'>
+                        <a
+                            role='button'
+                            className='btn btn-link'
+                            href='mailto:tyler.waugh@gmail.com'
+                        >
+                            <i className='fa fa-envelope-o' /> waughphoto@gmail.com
+                        </a>
+      </CardText>
+    </CardBody>
+  </Card>  
+      </Col>
+    </Row> 
 </Container>
     
     

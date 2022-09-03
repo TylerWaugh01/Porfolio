@@ -7,8 +7,7 @@ const BioPage = () => {
     className="my-2"
     color="dark"
     inverse
-    // style={{ width: "18rem" }}
-  >
+    >
     <CardBody>
       <CardText className='d-flex justify-content-center'>
         Tyler is a Kansan living in New Jersey. He is a web developer with a passion for design, user experience, and bringing people together.  
