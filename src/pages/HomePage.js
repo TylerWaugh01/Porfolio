@@ -40,7 +40,7 @@ const HomePage = () => {
                 </Col>
         </Row>  
        <Row>
-        <h3 id='projects'>Projects</h3>
+        <h3 id='projects'>Work</h3>
                 <Col>
                     <ProjectsList/>
                 </Col>

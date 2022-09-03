@@ -1,19 +1,30 @@
-import { Card, CardImg, CardText, CardBody, Col } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, Col, Container, Row, CardTitle } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const ProjectDetail = ( {project} ) => {
-    const { image, name, description } = project;
+    const { image, name, description, website } = project;
 
     return (
-        // <Col md='12' className='m-4'>/ // adding margin and/or padding 
-             <Col md='6'>
-            <Card>
-                <CardImg top src={image} alt={name} />
-                <CardBody>
-                    <CardText>{description}</CardText>
-                </CardBody>
-            </Card>
-        </Col>
-    );
+                <Container>
+                    <Row>
+                        <Col md='6'>
+                        <a href={website} target="_blank" rel="noreferrer">
+                                <Card>
+                                    <CardImg top src={image} alt={name} />
+                                </Card>
+                                </a>                           
+                        </Col>
+                        <Col md='6'>
+                            <Card>
+                                <CardTitle>{name}</CardTitle>
+                                    <CardBody>
+                                            <CardText>{description}</CardText>
+                                    </CardBody>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>    
+            );
 };
 
 export default ProjectDetail; 

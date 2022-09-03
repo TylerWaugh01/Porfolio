@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ project }) => {
     const { id, image, name, elevator } = project;
     return (
-    <Link to={`${id}`}>
-        <Card>
-            <CardTitle>{name}</CardTitle>
-            <CardImg width='100%' src={image} alt={name}/> 
+    <Link to={`${id}`}  style={{ textDecoration: 'none', color: 'black'}}>
+        <Card className='my-6'>
+           <CardTitle style={{display: "flex" , flexDirection: "row",  justifyContent:'center'}}>{name}</CardTitle>
+            <CardImg src={image} alt={name}/> 
             <CardText>{elevator}</CardText>
         </Card>
     </Link>

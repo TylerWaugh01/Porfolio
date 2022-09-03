@@ -17,10 +17,7 @@ const Footer = () => {
                                 <NavHashLink to='/#projects'>Projects</NavHashLink>
                             </li>
                             <li>
-                                <NavHashLink to='/#bio'>Bio</NavHashLink>
-                            </li>
-                            <li>
-                                <NavHashLink to='/contact'>Contact</NavHashLink>
+                                <NavHashLink to='/#contact'>Contact</NavHashLink>
                             </li>
                         </ul>
                     </Col>

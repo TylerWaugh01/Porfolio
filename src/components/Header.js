@@ -141,7 +141,7 @@ function closeNav() {
         <Navbar dark color='dark' sticky='top'>
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
-                    <h1 className='mt-1'>Tyler Waugh</h1>                 
+                    <h1>Tyler Waugh</h1>                 
                 </NavLink>    
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
@@ -155,11 +155,6 @@ function closeNav() {
                     <NavItem>
                         <NavHashLink className='nav-link' to='/#projects'>  
                             <i className='fa fa-list fa-lg'  /> Work
-                        </NavHashLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavHashLink className='nav-link' to='/#bio'>
-                            <i className='fa fa-info fa-lg' /> Bio
                         </NavHashLink>
                     </NavItem>
                     <NavItem>
