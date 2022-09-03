@@ -30,8 +30,8 @@ const HomePage = () => {
             <i className='fa fa-github'/> </a>{" "}
             <a className='btn btn-social-icon btn-lg btn-linkedin-square my-2' href='https://www.linkedin.com/in/tylerwaugh/'>
             <i className='fa fa-linkedin-square'/> </a>
-            {/* <a role="button" class="btn btn-main mt-2" href="Tyler_Waugh_Resume.pdf" download="Resume-TylerWaugh"><i class="fa fa-download">
-            </i> Download Resume</a> */}
+            <a role="button" class="btn btn-main mt-2" href="Tyler_Waugh_Resume.pdf" download="Resume-TylerWaugh"><i class="fa fa-download">
+            </i> Download Resume</a>
         </Col>
       </Row>
       <Row>
