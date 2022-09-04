@@ -7,10 +7,8 @@ import {
     Nav, 
     NavItem,
     Container,
-    Button
 } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-// import CorgiLogo from '../app/assets/img/logo.png';
 import { NavHashLink } from 'react-router-hash-link';
 
 
@@ -138,13 +136,13 @@ function closeNav() {
 
 {/* </Container> */}
         return (
-        <Navbar dark color='dark' sticky='top'>
+        <Navbar color='dark'> 
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
                     <h1>Tyler Waugh</h1>                 
                 </NavLink>    
             </NavbarBrand>
-            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)}/>
+            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} navbar-dark/>
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>

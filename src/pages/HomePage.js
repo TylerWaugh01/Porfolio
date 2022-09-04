@@ -15,7 +15,7 @@ const HomePage = () => {
   return (
     <Container>
       <Row>
-        <Col sm={{ size: 'auto'}}>
+        <Col>
           <img src={Tyler} alt="Tyler" />
         </Col>
         <Col>
