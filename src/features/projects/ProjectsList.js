@@ -11,6 +11,7 @@ const ProjectsList = () => {
         {projects.map((project) => {
         return (
         <Col 
+        sm='12'
         md='5' 
         className='m-4' 
         key={project.id}>

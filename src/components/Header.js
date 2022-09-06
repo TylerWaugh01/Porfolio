@@ -136,13 +136,13 @@ function closeNav() {
 
 {/* </Container> */}
         return (
-        <Navbar color='dark'> 
+        <Navbar staticTop fluid> 
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
                     <h1>Tyler Waugh</h1>                 
                 </NavLink>    
             </NavbarBrand>
-            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} navbar-dark/>
+            <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className='navbar-dark' />
             <Collapse isOpen={menuOpen} navbar>
                 <Nav className='ms-auto' navbar>
                     <NavItem>

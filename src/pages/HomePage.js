@@ -15,8 +15,8 @@ const HomePage = () => {
   return (
     <Container>
       <Row>
-        <Col>
-          <img src={Tyler} alt="Tyler" />
+        <Col sm='3'>
+          <img fluid src={Tyler} alt="Tyler" />
         </Col>
         <Col>
           <h2  id='home' style={{display: "flex" , flexDirection: "column",  justifyContent:'center', fontSize: '70px' }}>Tyler Waugh,</h2>
