@@ -4,7 +4,7 @@ const BioPage = () => {
     return (
     <Container>
     <Card
-    className="my-2"
+    className="my-2 biocard"
     color="dark"
     inverse
     >
