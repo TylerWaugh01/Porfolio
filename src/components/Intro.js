@@ -1,5 +1,5 @@
 import { Col, Row, Container } from "reactstrap";
-// import Butter from "../app/assets/img/Butter.jpeg";
+
 
 const Introduction = () => {
   return (

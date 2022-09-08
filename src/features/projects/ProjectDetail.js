@@ -1,5 +1,4 @@
 import { Card, CardImg, CardText, CardBody, Col, Container, Row, CardTitle } from 'reactstrap';
-import { Link } from 'react-router-dom';
 
 const ProjectDetail = ( {project} ) => {
     const { image, name, skills, website, elevator} = project;
