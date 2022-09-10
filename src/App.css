@@ -40,7 +40,6 @@ h3 {
 
 .navbar-dark {
   background-color: #0000;
-  background-image: #0000;
   margin-bottom: 1rem;
 }
 
@@ -64,7 +63,7 @@ h3 {
   transition: 300ms ease-in;
 }  
 
-.overlay {
+/* .overlay {
   height: 100%;
   width: 100%;
   display: none;
@@ -74,9 +73,9 @@ h3 {
   left: 0;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.9);
-}
+} */
 
 .navbar {
-  background-color: black
+  background-color: rgb(117, 179, 17)
 }
 
