@@ -12,7 +12,7 @@ const ProjectsList = () => {
         return (
         <Col 
         sm='12'
-        md='5' 
+        md='4' 
         className='m-4' 
         key={project.id}>
         <ProjectCard project={project} />
