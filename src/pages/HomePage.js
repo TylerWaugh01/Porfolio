@@ -1,12 +1,12 @@
 import Tyler from "../app/assets/img/Tyler.png"
 import { Col, Row, Container } from "reactstrap";
-// import { useState } from 'react';
-// import ProjectDetail from '../features/projects/ProjectDetail';
 import ProjectsList from '../features/projects/ProjectsList';
-// import { selectProjectById } from '../features/projects/projectsSlice';
-// import DisplayList from '../features/display/DisplayList';
 import ContactPage from "./ContactPage";
 import BioPage from "./BioPage";
+// import { selectProjectById } from '../features/projects/projectsSlice';
+// import DisplayList from '../features/display/DisplayList';
+// import { useState } from 'react';
+// import ProjectDetail from '../features/projects/ProjectDetail';
 
 
 const HomePage = () => {

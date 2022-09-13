@@ -14,7 +14,6 @@ const ProjectDetail = ( {project} ) => {
                                 </a>
                         </Col>
                         <Col md='6' style={{display: "flex" , flexDirection: "column",  justifyContent:'center'}}>
-
                             <Card style={{display: "flex" , flexDirection: "column",  justifyContent:'center'}}>
                                 <CardTitle style={{display: "flex" , flexDirection: "row",  justifyContent:'center'}}>{name}</CardTitle>
                                     <CardBody>
