@@ -1,17 +1,17 @@
 import Tyler from "../app/assets/img/Tyler.png"
-import { Card, CardBody, CardText, Col, Row, Container } from "reactstrap";
-import { useState } from 'react';
-import ProjectDetail from '../features/projects/ProjectDetail';
+import { Col, Row, Container } from "reactstrap";
+// import { useState } from 'react';
+// import ProjectDetail from '../features/projects/ProjectDetail';
 import ProjectsList from '../features/projects/ProjectsList';
-import { selectProjectById } from '../features/projects/projectsSlice';
-import DisplayList from '../features/display/DisplayList';
+// import { selectProjectById } from '../features/projects/projectsSlice';
+// import DisplayList from '../features/display/DisplayList';
 import ContactPage from "./ContactPage";
 import BioPage from "./BioPage";
 
 
 const HomePage = () => {
-  const [projectId, setProjectId] = useState(0);   
-  const selectedProject = selectProjectById(projectId); 
+  // const [projectId, setProjectId] = useState(0);   
+  // const selectedProject = selectProjectById(projectId); 
   return (
     <Container>
       <Row>
