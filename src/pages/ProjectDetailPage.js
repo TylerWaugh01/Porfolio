@@ -9,7 +9,7 @@ const ProjectDetailPage = () => {
 
     return (
         <Container>
-            <Row my='4'>
+            <Row my='3'>
                 <ProjectDetail project={project} />
             </Row>
         </Container>
