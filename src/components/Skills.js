@@ -16,7 +16,7 @@ const SkillCard = () => {
               <CardTitle tag="h5">Skills</CardTitle>
               <CardText>
                 HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
-                Express, MongoDB
+                Express, MongoDB, Rest API's
               </CardText>
             </CardBody>
           </Card>
