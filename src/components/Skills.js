@@ -3,7 +3,7 @@ import { Card, CardBody, CardText, Col, Row, Container, CardTitle } from "reacts
 const SkillCard = () => {
   return (
     <Container>
-    <h2>Who is Tyler?</h2>
+    <h2>Meet Tyler</h2>
       <Row>
         <Col>
           <Card
