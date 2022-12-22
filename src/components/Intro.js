@@ -6,7 +6,6 @@ const Introduction = () => {
     <Container>
       <Row>
         <Col sm={{ size: 'auto', offset: 3 }}>
-          {/* <img src={Butter} alt="Butter" /> */}
         </Col>
         <Col style={{display: "flex" , flexDirection: "column",  justifyContent:'center' }}>
           <h1 style={{ fontSize: '70px'}}>Tyler Waugh</h1>
