@@ -6,7 +6,7 @@ export const PROJECTS = [
         id: 2,
         name: 'Camping Site',
         image: Nucamp,
-        website: 'http://3.81.231.5',
+        // website: 'http://3.81.231.5',
         featured: false,
         elevator: 'Full stack camping site with favorite, comment, and log-in capability',
         skills: 'HTML, CSS, Javascript, React, NodeJS, Express, MongoDB',

@@ -22,8 +22,8 @@ const HomePage = () => {
           <h2  id='home' style={{display: "flex" , flexDirection: "column",  justifyContent:'center', fontSize: '70px' }}>Tyler Waugh,</h2>
           <h2 style={{ fontSize: '50px', }}>Full Stack Developer</h2>
             <p className="my-3"><b>Skills: </b>
-                HTML, CSS, Javascript, Bootstrap, React, React Native, NodeJS,
-                Express, MongoDB</p>
+            HTML5, CSS3, Bootstrap, SASS, JavaScript, ReactJS, React-Native, React-Redux, .Net, WordPress,
+VSCode, GitBash, GitHub, Git, NodeJs, Express, JSON, MongoDB, Postman, RESTful APIs, AWS</p>
             <p className="my-1"><b>Education: </b>
             Nucamp Full Stack Web + Mobile Development Bootcamp</p>
             <a className='btn btn-social-icon btn-github my-2' href='https://github.com/TylerWaugh01'>

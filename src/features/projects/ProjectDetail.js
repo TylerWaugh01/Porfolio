@@ -20,13 +20,10 @@ const ProjectDetail = ( {project} ) => {
                                             <CardText>
                                                 <ul>
                                                     <li>
+                                                    <a href={website} target="_blank" rel="noreferrer" style={{ textDecoration: 'none'}}>
                                                     {elevator}
-                                                    </li>
-                                                <li>
-                                                <a href={website} target="_blank" rel="noreferrer" style={{ textDecoration: 'none'}}>
-                                                Demo
                                                 </a>
-                                                </li>
+                                                    </li>
                                                 <li>
                                                 {skills}
                                                     </li>
