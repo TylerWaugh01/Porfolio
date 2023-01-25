@@ -15,7 +15,7 @@ import { NavHashLink } from 'react-router-hash-link';
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
         return (
-        <Navbar staticTop fluid> 
+        <Navbar staticTop fluid style={{marginBottom: '10px'}}> 
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
                     <h1>Tyler Waugh</h1>                 

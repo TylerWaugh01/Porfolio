@@ -3,7 +3,7 @@ import { NavHashLink } from 'react-router-hash-link';
 
 const Footer = () => {
     return (
-        <footer className='site-footer'>
+        <footer className='site-footer' style={{marginTop: '10px'}}>
             <Container>
                 <Row>
                     <Col xs={{ size: 4, offset: 5 }} sm='2' style={{ display: "flex" , flexDirection: "column",  justifyContent:'center' }}>

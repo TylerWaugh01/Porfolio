@@ -16,7 +16,7 @@ const HomePage = () => {
     <Container>
       <Row>
         <Col sm={{ size: 'auto'}}>
-          <img src={Tyler} alt="Tyler" />
+          <img src={Tyler} alt="Tyler"  style={{marginTop: "10px"}} />
         </Col>
         <Col md='8'>
           <h2  id='home' style={{display: "flex" , flexDirection: "column",  justifyContent:'center', fontSize: '70px' }}>Tyler Waugh,</h2>

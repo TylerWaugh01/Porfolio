@@ -4,7 +4,7 @@ const DisplayCard = ({ item }) => {
     const { image, name, description } = item;
     return (
         <Card>
-            <CardImg src={image} alt={name} />
+            <CardImg src={image} alt={name}  style={{marginTop: "50px"}} />
             <CardBody>
                 <CardTitle>{name}</CardTitle>
                 <CardText>{description}</CardText>
