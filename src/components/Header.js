@@ -18,7 +18,7 @@ const Header = () => {
         <Navbar staticTop fluid style={{marginBottom: '10px'}}> 
             <NavbarBrand className='ms-5' href='/'>
                 <NavLink className='nav-link' to='/'>
-                    <h1>Tyler Waugh</h1>                 
+                    <h1>William Tyler Waugh</h1>                 
                 </NavLink>    
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} className='navbar-dark' />
