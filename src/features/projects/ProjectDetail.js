@@ -9,7 +9,7 @@ const ProjectDetail = ( {project} ) => {
                         <Col md='6'>
                         <a href={website} target="_blank" rel="noreferrer">
                                 <Card>
-                                    <CardImg style={{height: 'auto'}} top src={image} alt={name} />
+                                    <CardImg top src={image} alt={name} />
                                 </Card>
                                 </a>
                         </Col>

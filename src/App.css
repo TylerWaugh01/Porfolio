@@ -1,5 +1,5 @@
 h1 {
-  color: #4417e9;
+  color: #ffffff;
   font-family: 'Lobster', cursive;
   font-size: 1.25rem;
 
@@ -31,11 +31,12 @@ h3 {
   min-height: 200px;
 } 
 
-.site-footer {
-  background-color: #000000;
-  width:100%;
-  position:absolute;
-}
+/* .site-footer {
+position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+} */
 
 .navbar-dark {
   background-color: #0000;
@@ -63,6 +64,6 @@ h3 {
 }  
 
 .navbar {
-  background-color: rgb(229, 141, 41)
+  background-color: rgb(0, 0, 0)
 }
 
