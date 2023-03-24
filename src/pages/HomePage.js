@@ -19,7 +19,7 @@ const HomePage = () => {
           <img src={Tyler} alt="Tyler"  style={{marginTop: "10px"}} />
         </Col>
         <Col md='8'>
-          <h2  id='home' style={{display: "flex" , flexDirection: "column",  justifyContent:'center', fontSize: '70px' }}>Tyler Waugh,</h2>
+          <h2  id='home' style={{display: "flex" , flexDirection: "column",  justifyContent:'center', fontSize: '70px' }}>William Tyler Waugh,</h2>
           <h2 style={{ fontSize: '50px', }}>Full Stack Developer</h2>
             <p className="my-3"><b>Skills: </b>
             HTML5, CSS3, Bootstrap, SASS, JavaScript, ReactJS, React-Native, React-Redux, .Net, WordPress,

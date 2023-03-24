@@ -48,7 +48,7 @@ const SkillCard = () => {
             <CardBody>
               <CardTitle tag="h5">Biography</CardTitle>
               <CardText>
-                Kansan living in New Jersey. A web developer with a passion for design, user experience, and bringing people together. 
+                A web developer with a passion for design, user experience, and bringing people together. 
               </CardText>
             </CardBody>
           </Card>
