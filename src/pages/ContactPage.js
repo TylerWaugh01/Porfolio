@@ -39,7 +39,7 @@ const ContactPage = () => {
                             className='btn btn-link'
                             href='mailto:tyler.waugh@gmail.com'
                         >
-                            <i className='fa fa-envelope-o' /> tylerwaughwebdev@gmail.com
+                            <i className='fa fa-envelope-o' /> waughphoto@gmail.com
                         </a>
       </CardText>
     </CardBody>
