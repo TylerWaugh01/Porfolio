@@ -13,7 +13,7 @@ const Footer = () => {
                                 <NavHashLink  to='/#home'>Home</NavHashLink>
                             </li>
                             <li>
-                                <NavHashLink to='/#projects'>Projects</NavHashLink>
+                                <NavHashLink to='/#projects'>Work</NavHashLink>
                             </li>
                             <li>
                                 <NavHashLink to='/#contact'>Contact</NavHashLink>
